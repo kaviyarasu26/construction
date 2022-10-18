@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        html,body{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .test{
+            width: 50vw;
+            height: 50vh;
+        }
+    </style>
+</head>
+
+<body>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+    <!-- Use it like any other HTML element -->
+    <model-viewer class="test"
+        alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+        src="./270_park_avenue.glb" ar 
+         shadow-intensity="1" camera-controls touch-action="pan-y">
+    </model-viewer>
+</body>
+
+</html>
